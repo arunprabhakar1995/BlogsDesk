@@ -9,7 +9,7 @@ async function startServer() {
     typeDefs,
     resolvers,
     cors: {
-      origin: ["http://localhost:3000", "https://your-frontend.vercel.app"], // adjust as needed
+      origin: ["http://localhost:3000", "https://blogs-desk.vercel.app/"], // adjust as needed
       credentials: true,
     },
   });
